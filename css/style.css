@@ -1,0 +1,18 @@
+header {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: lightblue;
+}
+
+header img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+div span {
+    color: aqua;
+}
+
+.abb {
+    font-size: 18px;
+}
