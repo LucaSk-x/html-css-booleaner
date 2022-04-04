@@ -4,6 +4,11 @@ header {
     background-color: lightblue;
 }
 
+table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 header img {
     width: 200px;
     margin-top: 20px;
@@ -13,6 +18,53 @@ div span {
     color: aqua;
 }
 
-.abb {
-    font-size: 18px;
+.Title {
+    font-size: 40px;
+    font-weight: bold;
 }
+
+.fontsmall {
+    font-size: 12px;
+}
+
+.tim-one {
+    margin-top: 15px;
+}
+
+.lightgray {
+    color: lightgray;
+}
+
+thead {
+    background-color: rgb(92, 184, 215);
+    color: white;
+}
+
+tr :last-child {
+    width: 60%;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.link {
+    font-size: 20px;
+    color: white;   
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+
